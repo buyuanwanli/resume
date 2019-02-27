@@ -30,7 +30,7 @@
       display: flex;
       justify-content: center;
       width: 75%;
-      background: $background-color;
+      background: linear-gradient(90deg, rgba(65, 184, 131, 0.8), rgba(50, 57, 86, 0.8));
       margin-top: 30px;
       border-radius: 10px;
       overflow: hidden;

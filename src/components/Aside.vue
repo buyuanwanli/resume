@@ -118,7 +118,9 @@
 
     }
 
-    .user-info {color: $color;transition: linear .5s;
+    .user-info {color: $color;
+      background-color: $background-color;
+      transition: linear .5s;
       text-align: center;padding: 20px 0;
 
       &:hover {transform: scale(1.1);padding-left: 20px;
@@ -134,7 +136,8 @@
       }
     }
 
-    .skill {background-color: $color;color: #FFF;
+    .skill {background-color: $color;
+      color: $background-color;
       text-align: center;transition: linear .5s;
       padding: 20px 0;
 
@@ -161,6 +164,7 @@
 
     .blog {color: $color;text-align: center;
       transition: linear .5s;padding: 20px 0;
+      background-color: $background-color;
 
       &:hover {transform: scale(1.1);padding-left: 20px;
         box-shadow: $box-shadow;
@@ -178,7 +182,8 @@
       }
     }
 
-    .contact {background-color: $color;color: #FFF;
+    .contact {background-color: $color;
+      color: $background-color;
       transition: linear .5s;
       text-align: center;padding: 20px 0;
 
