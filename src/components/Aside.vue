@@ -64,7 +64,7 @@
           <svg class="icon" aria-hidden="true">
             <use xlink:href="#i-github"></use>
           </svg>
-          <a href="https://www.github.com/buyuanwanli" target="_blank">GitHub</a>
+          <a href="https://www.github.com/buyuanlee" target="_blank">GitHub</a>
         </li>
       </ul>
     </section>
@@ -101,36 +101,35 @@
 </script>
 
 <style scoped lang="scss">
+  @import "../assets/reset";
+
   $color: #41B883;
   $background-color: #EEE;
   $box-shadow: 3px 3px 10px 4px rgba(0, 0, 0, 0.5);
 
-  .icon {width: 1em;height: 1em;vertical-align: -0.15em;
-    fill: currentColor;overflow: hidden;}
-
-  aside {width: 30%;
-
-    .user {text-align: center;color: #FFF;
+  aside {
+    .user {
+      text-align: center;color: #FFF;
       background-color: $color;
       padding-bottom: 20px;
-
       .avatar {width: 100%;}
-
     }
 
-    .user-info {color: $color;
+    .user-info {
+      color: $color;
       background-color: $background-color;
       transition: linear .5s;
       text-align: center;padding: 20px 0;
 
-      &:hover {transform: scale(1.1);padding-left: 20px;
+      &:hover {
+        transform: scale(1.1);padding-left: 20px;
         background-color: $background-color;
         box-shadow: $box-shadow;}
 
-      ul {text-align: left;
-
-        li {color: $color;padding: 10px;
-
+      ul {
+        text-align: left;
+        li {
+          color: $color;padding: 10px;
           span {margin-left: 10px;}
         }
       }
@@ -149,12 +148,12 @@
 
       dl {
         dt {margin: 10px;}
-
-        dd {display: block;width: 90%;
+        dd {
+          display: block;width: 90%;
           height: 4px;background: $background-color*0.8;
           border-radius: 4px;margin: 0 auto;
-
-          span {display: block;height: 4px;
+          span {
+            display: block;height: 4px;
             border-radius: 4px;
             background: $background-color;
           }
