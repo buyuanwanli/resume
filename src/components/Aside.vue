@@ -120,6 +120,9 @@
       background-color: $background-color;
       transition: linear .5s;
       text-align: center;padding: 20px 0;
+      ul{
+        display: inline-block;
+      }
 
       &:hover {
         transform: scale(1.1);padding-left: 20px;
@@ -127,10 +130,9 @@
         box-shadow: $box-shadow;}
 
       ul {
-        text-align: left;
+
         li {
           color: $color;padding: 10px;
-          span {margin-left: 10px;}
         }
       }
     }
@@ -138,7 +140,7 @@
     .skill {background-color: $color;
       color: $background-color;
       text-align: center;transition: linear .5s;
-      padding: 20px 0;
+      padding: 20px;
 
       &:hover {transform: scale(1.1);padding-left: 20px;
         background-color: $color*1.1;
@@ -165,16 +167,13 @@
       transition: linear .5s;padding: 20px 0;
       background-color: $background-color;
 
-      &:hover {transform: scale(1.1);padding-left: 20px;
-        box-shadow: $box-shadow;
-        background-color: $background-color;
-      }
 
-      ul {text-align: left;
+
+      ul {
 
         li {color: $color;padding: 10px;
 
-          a {margin-left: 15px;color: inherit}
+          a {color: inherit}
 
           &:hover {text-decoration: underline;}
         }
@@ -189,11 +188,10 @@
       &:hover {transform: scale(1.1);padding-left: 20px;
         background-color: $color*1.1;box-shadow: $box-shadow;}
 
-      ul {text-align: left;
+      ul {
 
         li {padding: 10px;
 
-          span {margin-left: 10px;}
         }
       }
     }

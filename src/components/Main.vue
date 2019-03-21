@@ -31,9 +31,10 @@
           class="highlight">Vue.js</span>简单的UI组件库，并在 <span class="highlight">npm</span>社区发布了包，进一步了解了开源文化，项目使用 <span
           class="highlight">Vue-Cli</span>搭建，官方文档使用了 <span class="highlight">VuePress</span>框架。现有组件包括Button、Icon、ButtonGroup、Input、Layout,其余组件仍在更新中，项目使用
           <span class="highlight">scss</span>编辑样式
-          <a href="https://buyuanlee.github.io/AnimationResume/index.html" target="_blank" class="highlight">项目预览>>></a>
-          <a href="https://github.com/buyuanlee/AnimationResume" target="_blank" class="highlight">源码查看>>></a>
+          <a href="https://buyuanlee.github.io/AloeUI/index.html" target="_blank" class="highlight">项目预览>>></a>
+          <a href="https://github.com/buyuanlee/AloeUI" target="_blank" class="highlight">源码查看>>></a>
         </div>
+        <!--作品二-->
         <div class="project-box">
           <h3>Vue技术栈写CNode社区</h3>
           <img src="../assets/p3.png" alt="Vue技术栈写CNode社区">
@@ -41,28 +42,17 @@
           <span class="highlight">Vue-Cli</span>进行项目搭建，使用 <span class="highlight">component</span>的功能，将页面分为头部、列表、文章内容、侧边栏、用户信息和分页器等组件。使用<span
           class="highlight">Vuex</span>对项目状态管理，使用<span class="highlight">Vue-Router</span>对项目进行路由管理,使用 <span
           class="highlight">webpack</span>打包
-          <a href="https://buyuanlee.github.io/AnimationResume/index.html" target="_blank" class="highlight">项目预览>>></a>
-          <a href="https://github.com/buyuanlee/AnimationResume" target="_blank" class="highlight">源码查看>>></a>
+          <a href="https://buyuanlee.github.io/cnode-demo/dist/#/" target="_blank" class="highlight">项目预览>>></a>
+          <a href="https://github.com/buyuanlee/cnode-demo" target="_blank" class="highlight">源码查看>>></a>
         </div>
-        <!--作品二-->
+        <!--作品三-->
         <div class="project-box">
           <h3>随心画板Canvas</h3>
           <img src="../assets/p5.png" alt="随心画板Canvas">
           <b class="highlight">项目介绍：</b>为学习 <span class="highlight">HTML5</span>的<span class="highlight">canvas</span>API,配合原生的
           <span class="highlight">JavaScript</span>制作的一个简易画板工具。主要功能是可以在画板上写字、涂鸦。其他功能包括切换画笔颜色、调整画笔粗细、橡皮擦功能、清除全部功能以图片及保存到本地。
-          <a href="https://buyuanlee.github.io//canvasindex.html" target="_blank" class="highlight">项目预览>>></a>
+          <a href="https://buyuanlee.github.io//canvas/index.html" target="_blank" class="highlight">项目预览>>></a>
           <a href="https://github.com/buyuanlee/canvas" target="_blank" class="highlight">源码查看>>></a>
-        </div>
-        <!--作品三-->
-        <div class="project-box">
-          <h3>Vue技术栈写CNode社区</h3>
-          <img src="../assets/p3.png" alt="Vue技术栈写CNode社区">
-          <b class="highlight">项目介绍:</b>为了学习 <span class="highlight">VueJS</span>及相关技术栈，利用CNode官方API，仿写了一个CNode社区。项目使用
-          <span class="highlight">Vue-Cli</span>进行项目搭建，使用 <span class="highlight">component</span>的功能，将页面分为头部、列表、文章内容、侧边栏、用户信息和分页器等组件。使用<span
-          class="highlight">Vuex</span>对项目状态管理，使用<span class="highlight">Vue-Router</span>对项目进行路由管理,使用 <span
-          class="highlight">webpack</span>打包
-          <a href="https://buyuanlee.github.io/AnimationResume/index.html" target="_blank" class="highlight">项目预览>>></a>
-          <a href="https://github.com/buyuanlee/AnimationResume" target="_blank" class="highlight">源码查看>>></a>
         </div>
         <!--作品四-->
         <div class="project-box">
@@ -122,7 +112,7 @@
 
     .highlight {color: orangered;font-weight: bolder;font-size: 18px;}
 
-    .paper {background-color: rgba(255, 255, 255, 0.33);margin: 10px 0 0 10px;padding-left: 25px;
+    .paper {background-color: rgba(255, 255, 255, 0.33);margin: 10px 0 0 10px;
 
       .about {}
 

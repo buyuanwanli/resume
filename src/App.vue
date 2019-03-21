@@ -2,6 +2,7 @@
   <div id="app">
     <div class="wrapper">
       <Aside></Aside>
+      <div class="line"></div>
       <Main></Main>
     </div>
   </div>
@@ -29,16 +30,19 @@
 
     .wrapper {
       display: flex;
-      justify-content: center;
-      overflow: visible;
 
-      Aside {
-        width: 30%;
+      .line{
+        height: 100%;
+        width: 2px;
+        background-color: #999;
+        margin-left: 10px;
       }
-
+      Aside {
+        width: 25%;
+      }
       Main {
+        width: 50%;
         padding-top: 20px;
-        padding-right: 20px;
       }
     }
   }
