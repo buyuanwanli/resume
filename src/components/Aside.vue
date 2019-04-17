@@ -112,7 +112,8 @@
       text-align: center;color: #FFF;
       background-color: $color;
       padding-bottom: 20px;
-      .avatar {width: 100%;}
+      .avatar {width: 50%;
+      border-radius: 50%}
     }
 
     .user-info {
