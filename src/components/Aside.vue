@@ -37,11 +37,11 @@
         <dt>Vue / Vue-Router / Vuex</dt>
         <dd><span style="width: 85%"></span></dd>
 
-        <dt>ES6 / Scss</dt>
+        <dt>微信小程序</dt>
         <dd><span style="width: 85%"></span></dd>
 
         <dt>NodeJs</dt>
-        <dd><span style="width: 75%"></span></dd>
+        <dd><span style="width: 60%"></span></dd>
 
       </dl>
     </section>
@@ -75,7 +75,7 @@
           <svg class="icon" aria-hidden="true">
             <use xlink:href="#i-wechat"></use>
           </svg>
-          <span>ecjean</span>
+          <span>buyuanlee</span>
         </li>
         <li>
           <svg class="icon" aria-hidden="true">
@@ -95,16 +95,16 @@
 </template>
 
 <script>
-  export default {
-    name: "Aside"
-  }
+export default {
+  name: 'Aside'
+}
 </script>
 
 <style scoped lang="scss">
   @import "../assets/reset";
 
-  $color: #41B883;
-  $background-color: #EEE;
+  $color: #589bf7;
+  $background-color: #f9f9f9;
   $box-shadow: 3px 3px 10px 4px rgba(0, 0, 0, 0.5);
 
   aside {
@@ -112,8 +112,9 @@
       text-align: center;color: #FFF;
       background-color: $color;
       padding-bottom: 20px;
-      .avatar {width: 50%;
-      border-radius: 50%}
+      .avatar{
+        border:6px double white;
+      }
     }
 
     .user-info {
@@ -148,7 +149,6 @@
         box-shadow: $box-shadow;
       }
 
-
       dl {
         dt {margin: 10px;}
         dd {
@@ -167,8 +167,6 @@
     .blog {color: $color;text-align: center;
       transition: linear .5s;padding: 20px 0;
       background-color: $background-color;
-
-
 
       ul {
 
