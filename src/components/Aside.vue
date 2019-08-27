@@ -2,7 +2,7 @@
   <aside>
     <section class="user">
       <img src="../assets/avatar.jpg" alt="avatar" class="avatar">
-      <h1>李不远</h1>
+      <h1>李建伟</h1>
       <p>前端工程师</p>
     </section>
     <section class="user-info">
@@ -81,7 +81,7 @@
           <svg class="icon" aria-hidden="true">
             <use xlink:href="#i-phone"></use>
           </svg>
-          <span>17557290656</span>
+          <span>13721052049</span>
         </li>
         <li>
           <svg class="icon" aria-hidden="true">
